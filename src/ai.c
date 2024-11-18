@@ -5,6 +5,7 @@
 #include <unistd.h>
 #include "config.c"
 #include <memory.h>
+#include <stdio.h>
 
 
 int solve(Game *game, Cursor *cursor, int idx) {
