@@ -1,0 +1,2 @@
+/usr/bin/ar qc libAux.a CMakeFiles/Aux.dir/src/aux.c.o
+/usr/bin/ranlib libAux.a

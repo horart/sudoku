@@ -1,0 +1,26 @@
+[
+{
+  "directory": "/home/horart/edu/cpp/labs/1/build",
+  "command": "/usr/bin/cc  -I/home/horart/edu/cpp/labs/1/include -g -o CMakeFiles/Game.dir/src/game.c.o -c /home/horart/edu/cpp/labs/1/src/game.c",
+  "file": "/home/horart/edu/cpp/labs/1/src/game.c",
+  "output": "CMakeFiles/Game.dir/src/game.c.o"
+},
+{
+  "directory": "/home/horart/edu/cpp/labs/1/build",
+  "command": "/usr/bin/cc  -I/home/horart/edu/cpp/labs/1/include -g -o CMakeFiles/Game.dir/src/aux.c.o -c /home/horart/edu/cpp/labs/1/src/aux.c",
+  "file": "/home/horart/edu/cpp/labs/1/src/aux.c",
+  "output": "CMakeFiles/Game.dir/src/aux.c.o"
+},
+{
+  "directory": "/home/horart/edu/cpp/labs/1/build",
+  "command": "/usr/bin/cc  -I/home/horart/edu/cpp/labs/1/include -g -o CMakeFiles/Game.dir/src/config.c.o -c /home/horart/edu/cpp/labs/1/src/config.c",
+  "file": "/home/horart/edu/cpp/labs/1/src/config.c",
+  "output": "CMakeFiles/Game.dir/src/config.c.o"
+},
+{
+  "directory": "/home/horart/edu/cpp/labs/1/build",
+  "command": "/usr/bin/cc  -I/home/horart/edu/cpp/labs/1/include -g -o CMakeFiles/MyApp.dir/src/main.c.o -c /home/horart/edu/cpp/labs/1/src/main.c",
+  "file": "/home/horart/edu/cpp/labs/1/src/main.c",
+  "output": "CMakeFiles/MyApp.dir/src/main.c.o"
+}
+]
