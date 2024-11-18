@@ -8,9 +8,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/horart/edu/cpp/labs/1/src/ai.c" "CMakeFiles/Game.dir/src/ai.c.o" "gcc" "CMakeFiles/Game.dir/src/ai.c.o.d"
   "/home/horart/edu/cpp/labs/1/src/aux.c" "CMakeFiles/Game.dir/src/aux.c.o" "gcc" "CMakeFiles/Game.dir/src/aux.c.o.d"
   "/home/horart/edu/cpp/labs/1/src/config.c" "CMakeFiles/Game.dir/src/config.c.o" "gcc" "CMakeFiles/Game.dir/src/config.c.o.d"
   "/home/horart/edu/cpp/labs/1/src/game.c" "CMakeFiles/Game.dir/src/game.c.o" "gcc" "CMakeFiles/Game.dir/src/game.c.o.d"
+  "/home/horart/edu/cpp/labs/1/src/logics.c" "CMakeFiles/Game.dir/src/logics.c.o" "gcc" "CMakeFiles/Game.dir/src/logics.c.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

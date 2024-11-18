@@ -142,6 +142,30 @@ MyApp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyApp.dir/build.make CMakeFiles/MyApp.dir/build
 .PHONY : MyApp/fast
 
+src/ai.o: src/ai.c.o
+.PHONY : src/ai.o
+
+# target to build an object file
+src/ai.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/ai.c.o
+.PHONY : src/ai.c.o
+
+src/ai.i: src/ai.c.i
+.PHONY : src/ai.i
+
+# target to preprocess a source file
+src/ai.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/ai.c.i
+.PHONY : src/ai.c.i
+
+src/ai.s: src/ai.c.s
+.PHONY : src/ai.s
+
+# target to generate assembly for a file
+src/ai.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/ai.c.s
+.PHONY : src/ai.c.s
+
 src/aux.o: src/aux.c.o
 .PHONY : src/aux.o
 
@@ -214,6 +238,30 @@ src/game.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/game.c.s
 .PHONY : src/game.c.s
 
+src/logics.o: src/logics.c.o
+.PHONY : src/logics.o
+
+# target to build an object file
+src/logics.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/logics.c.o
+.PHONY : src/logics.c.o
+
+src/logics.i: src/logics.c.i
+.PHONY : src/logics.i
+
+# target to preprocess a source file
+src/logics.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/logics.c.i
+.PHONY : src/logics.c.i
+
+src/logics.s: src/logics.c.s
+.PHONY : src/logics.s
+
+# target to generate assembly for a file
+src/logics.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/src/logics.c.s
+.PHONY : src/logics.c.s
+
 src/main.o: src/main.c.o
 .PHONY : src/main.o
 
@@ -248,6 +296,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Game"
 	@echo "... MyApp"
+	@echo "... src/ai.o"
+	@echo "... src/ai.i"
+	@echo "... src/ai.s"
 	@echo "... src/aux.o"
 	@echo "... src/aux.i"
 	@echo "... src/aux.s"
@@ -257,6 +308,9 @@ help:
 	@echo "... src/game.o"
 	@echo "... src/game.i"
 	@echo "... src/game.s"
+	@echo "... src/logics.o"
+	@echo "... src/logics.i"
+	@echo "... src/logics.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

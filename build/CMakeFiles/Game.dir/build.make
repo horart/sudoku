@@ -111,11 +111,41 @@ CMakeFiles/Game.dir/src/config.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Game.dir/src/config.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/horart/edu/cpp/labs/1/src/config.c -o CMakeFiles/Game.dir/src/config.c.s
 
+CMakeFiles/Game.dir/src/logics.c.o: CMakeFiles/Game.dir/flags.make
+CMakeFiles/Game.dir/src/logics.c.o: /home/horart/edu/cpp/labs/1/src/logics.c
+CMakeFiles/Game.dir/src/logics.c.o: CMakeFiles/Game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/horart/edu/cpp/labs/1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Game.dir/src/logics.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Game.dir/src/logics.c.o -MF CMakeFiles/Game.dir/src/logics.c.o.d -o CMakeFiles/Game.dir/src/logics.c.o -c /home/horart/edu/cpp/labs/1/src/logics.c
+
+CMakeFiles/Game.dir/src/logics.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/Game.dir/src/logics.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/horart/edu/cpp/labs/1/src/logics.c > CMakeFiles/Game.dir/src/logics.c.i
+
+CMakeFiles/Game.dir/src/logics.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Game.dir/src/logics.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/horart/edu/cpp/labs/1/src/logics.c -o CMakeFiles/Game.dir/src/logics.c.s
+
+CMakeFiles/Game.dir/src/ai.c.o: CMakeFiles/Game.dir/flags.make
+CMakeFiles/Game.dir/src/ai.c.o: /home/horart/edu/cpp/labs/1/src/ai.c
+CMakeFiles/Game.dir/src/ai.c.o: CMakeFiles/Game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/horart/edu/cpp/labs/1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/Game.dir/src/ai.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Game.dir/src/ai.c.o -MF CMakeFiles/Game.dir/src/ai.c.o.d -o CMakeFiles/Game.dir/src/ai.c.o -c /home/horart/edu/cpp/labs/1/src/ai.c
+
+CMakeFiles/Game.dir/src/ai.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/Game.dir/src/ai.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/horart/edu/cpp/labs/1/src/ai.c > CMakeFiles/Game.dir/src/ai.c.i
+
+CMakeFiles/Game.dir/src/ai.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Game.dir/src/ai.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/horart/edu/cpp/labs/1/src/ai.c -o CMakeFiles/Game.dir/src/ai.c.s
+
 # Object files for target Game
 Game_OBJECTS = \
 "CMakeFiles/Game.dir/src/game.c.o" \
 "CMakeFiles/Game.dir/src/aux.c.o" \
-"CMakeFiles/Game.dir/src/config.c.o"
+"CMakeFiles/Game.dir/src/config.c.o" \
+"CMakeFiles/Game.dir/src/logics.c.o" \
+"CMakeFiles/Game.dir/src/ai.c.o"
 
 # External object files for target Game
 Game_EXTERNAL_OBJECTS =
@@ -123,9 +153,11 @@ Game_EXTERNAL_OBJECTS =
 libGame.a: CMakeFiles/Game.dir/src/game.c.o
 libGame.a: CMakeFiles/Game.dir/src/aux.c.o
 libGame.a: CMakeFiles/Game.dir/src/config.c.o
+libGame.a: CMakeFiles/Game.dir/src/logics.c.o
+libGame.a: CMakeFiles/Game.dir/src/ai.c.o
 libGame.a: CMakeFiles/Game.dir/build.make
 libGame.a: CMakeFiles/Game.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/horart/edu/cpp/labs/1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C static library libGame.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/horart/edu/cpp/labs/1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C static library libGame.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/Game.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Game.dir/link.txt --verbose=$(VERBOSE)
 

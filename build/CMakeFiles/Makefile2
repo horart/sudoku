@@ -83,12 +83,12 @@ clean: CMakeFiles/MyApp.dir/clean
 CMakeFiles/Game.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/horart/edu/cpp/labs/1/build/CMakeFiles --progress-num=1,2,3,4 "Built target Game"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/horart/edu/cpp/labs/1/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target Game"
 .PHONY : CMakeFiles/Game.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Game.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/horart/edu/cpp/labs/1/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/horart/edu/cpp/labs/1/build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Game.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/horart/edu/cpp/labs/1/build/CMakeFiles 0
 .PHONY : CMakeFiles/Game.dir/rule
@@ -109,12 +109,12 @@ CMakeFiles/Game.dir/clean:
 CMakeFiles/MyApp.dir/all: CMakeFiles/Game.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyApp.dir/build.make CMakeFiles/MyApp.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyApp.dir/build.make CMakeFiles/MyApp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/horart/edu/cpp/labs/1/build/CMakeFiles --progress-num=5,6 "Built target MyApp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/horart/edu/cpp/labs/1/build/CMakeFiles --progress-num=7,8 "Built target MyApp"
 .PHONY : CMakeFiles/MyApp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/MyApp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/horart/edu/cpp/labs/1/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/horart/edu/cpp/labs/1/build/CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/MyApp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/horart/edu/cpp/labs/1/build/CMakeFiles 0
 .PHONY : CMakeFiles/MyApp.dir/rule

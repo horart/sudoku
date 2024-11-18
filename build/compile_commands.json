@@ -19,6 +19,18 @@
 },
 {
   "directory": "/home/horart/edu/cpp/labs/1/build",
+  "command": "/usr/bin/cc  -I/home/horart/edu/cpp/labs/1/include -g -o CMakeFiles/Game.dir/src/logics.c.o -c /home/horart/edu/cpp/labs/1/src/logics.c",
+  "file": "/home/horart/edu/cpp/labs/1/src/logics.c",
+  "output": "CMakeFiles/Game.dir/src/logics.c.o"
+},
+{
+  "directory": "/home/horart/edu/cpp/labs/1/build",
+  "command": "/usr/bin/cc  -I/home/horart/edu/cpp/labs/1/include -g -o CMakeFiles/Game.dir/src/ai.c.o -c /home/horart/edu/cpp/labs/1/src/ai.c",
+  "file": "/home/horart/edu/cpp/labs/1/src/ai.c",
+  "output": "CMakeFiles/Game.dir/src/ai.c.o"
+},
+{
+  "directory": "/home/horart/edu/cpp/labs/1/build",
   "command": "/usr/bin/cc  -I/home/horart/edu/cpp/labs/1/include -g -o CMakeFiles/MyApp.dir/src/main.c.o -c /home/horart/edu/cpp/labs/1/src/main.c",
   "file": "/home/horart/edu/cpp/labs/1/src/main.c",
   "output": "CMakeFiles/MyApp.dir/src/main.c.o"

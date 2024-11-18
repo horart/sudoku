@@ -41,14 +41,14 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Game::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Game-Debug-dde8b309d1789e6c7263.json",
+					"jsonFile" : "target-Game-Debug-b67c9742ef7b71af2c74.json",
 					"name" : "Game",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "MyApp::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-MyApp-Debug-2f088867aa532f7c2512.json",
+					"jsonFile" : "target-MyApp-Debug-5662b075ebf66c515ac0.json",
 					"name" : "MyApp",
 					"projectIndex" : 0
 				}

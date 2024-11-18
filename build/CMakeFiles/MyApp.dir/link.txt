@@ -1,1 +1,1 @@
-/usr/bin/cc -g CMakeFiles/MyApp.dir/src/main.c.o -o MyApp  libGame.a 
+/usr/bin/cc -g CMakeFiles/MyApp.dir/src/main.c.o -o MyApp  libGame.a -lm 
