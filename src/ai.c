@@ -44,5 +44,5 @@ void game_solve(Game *game) {
     solve(game, cursor, 0);
     update_game(game, cursor);
     carriage_to_end(game->field_size);
-    printf("AI WON!!!");
+    printf("AI WON!!!\n");
 }

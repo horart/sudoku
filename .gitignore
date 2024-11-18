@@ -1,2 +1,6 @@
 /.vscode
-/CMakeFiles
+CMakeFiles
+*.a
+Sudoku
+.cmake
+.vscode

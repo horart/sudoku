@@ -130,17 +130,17 @@ Game/fast:
 .PHONY : Game/fast
 
 #=============================================================================
-# Target rules for targets named MyApp
+# Target rules for targets named Sudoku
 
 # Build rule for target.
-MyApp: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MyApp
-.PHONY : MyApp
+Sudoku: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Sudoku
+.PHONY : Sudoku
 
 # fast build rule for target.
-MyApp/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyApp.dir/build.make CMakeFiles/MyApp.dir/build
-.PHONY : MyApp/fast
+Sudoku/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sudoku.dir/build.make CMakeFiles/Sudoku.dir/build
+.PHONY : Sudoku/fast
 
 src/ai.o: src/ai.c.o
 .PHONY : src/ai.o
@@ -267,7 +267,7 @@ src/main.o: src/main.c.o
 
 # target to build an object file
 src/main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyApp.dir/build.make CMakeFiles/MyApp.dir/src/main.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sudoku.dir/build.make CMakeFiles/Sudoku.dir/src/main.c.o
 .PHONY : src/main.c.o
 
 src/main.i: src/main.c.i
@@ -275,7 +275,7 @@ src/main.i: src/main.c.i
 
 # target to preprocess a source file
 src/main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyApp.dir/build.make CMakeFiles/MyApp.dir/src/main.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sudoku.dir/build.make CMakeFiles/Sudoku.dir/src/main.c.i
 .PHONY : src/main.c.i
 
 src/main.s: src/main.c.s
@@ -283,7 +283,7 @@ src/main.s: src/main.c.s
 
 # target to generate assembly for a file
 src/main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyApp.dir/build.make CMakeFiles/MyApp.dir/src/main.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sudoku.dir/build.make CMakeFiles/Sudoku.dir/src/main.c.s
 .PHONY : src/main.c.s
 
 # Help Target
@@ -295,7 +295,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Game"
-	@echo "... MyApp"
+	@echo "... Sudoku"
 	@echo "... src/ai.o"
 	@echo "... src/ai.i"
 	@echo "... src/ai.s"

@@ -31,8 +31,8 @@
 },
 {
   "directory": "/home/horart/edu/cpp/labs/1/build",
-  "command": "/usr/bin/cc  -I/home/horart/edu/cpp/labs/1/include -g -o CMakeFiles/MyApp.dir/src/main.c.o -c /home/horart/edu/cpp/labs/1/src/main.c",
+  "command": "/usr/bin/cc  -I/home/horart/edu/cpp/labs/1/include -g -o CMakeFiles/Sudoku.dir/src/main.c.o -c /home/horart/edu/cpp/labs/1/src/main.c",
   "file": "/home/horart/edu/cpp/labs/1/src/main.c",
-  "output": "CMakeFiles/MyApp.dir/src/main.c.o"
+  "output": "CMakeFiles/Sudoku.dir/src/main.c.o"
 }
 ]
