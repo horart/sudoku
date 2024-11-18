@@ -1,4 +1,0 @@
-/home/horart/edu/cpp/labs/1/build/CMakeFiles/Game.dir
-/home/horart/edu/cpp/labs/1/build/CMakeFiles/MyApp.dir
-/home/horart/edu/cpp/labs/1/build/CMakeFiles/edit_cache.dir
-/home/horart/edu/cpp/labs/1/build/CMakeFiles/rebuild_cache.dir
