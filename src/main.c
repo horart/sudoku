@@ -3,6 +3,9 @@
 #include "config.c"
 #include "game.h"
 
+#ifdef ENABLE_AI
+#include "ai.h"
+#endif
 
 #define SIZE 5
 
